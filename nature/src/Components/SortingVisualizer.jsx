@@ -19,10 +19,10 @@ export default function SortingVisualizer() {
                 height: `${(value/300)*100}%`,
                 width: `${Math.max(30, Math.min(60 / arrayState.array.length, 60))}px`,
                 backgroundColor: arrayState.comparing.includes(idx)
-                  ? '#FFEB3B'
+                  ? '#FFEB3B'// yellow color
                   : arrayState.swapping.includes(idx)
-                  ? '#FF4444'
-                  : '#3B82F6',
+                  ? '#FF4444'//red
+                  : '#3B82F6',// blue
                 margin: '0 2px',
                 borderRadius: '2px 2px 0 0'
               }}

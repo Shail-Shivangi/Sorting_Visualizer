@@ -18,10 +18,10 @@ export default function Controls() {
 
   const algorithms = [
     { name: 'Bubble Sort', fn: bubbleSort, color: 'blue' },
-    { name: 'Selection Sort', fn: selectionSort, color: 'purple' },
+    { name: 'Selection Sort', fn: selectionSort, color: 'red' },
     { name: 'Insertion Sort', fn: insertionSort, color: 'pink' },
-    { name: 'Merge Sort', fn: mergeSort, color: 'orange' },
-    { name: 'Quick Sort', fn: quickSort, color: 'teal' }
+    { name: 'Merge Sort', fn: mergeSort, color: 'green' },
+    { name: 'Quick Sort', fn: quickSort, color: 'violet' }
   ];
 
   const handleGenerateArray = () => {
