@@ -7,7 +7,7 @@ This project visually demonstrates how popular sorting algorithms work step-by-s
 
 ## 🎨 Project UI Preview
 
-![App UI](./src/assets/sorting-visualizer.png)
+![App UI](.nature/src/assets/sorting-visualizer.png)
 
 > 🖼️ Screenshot preview of the Sorting Visualizer showing bars and algorithm controls.
 
